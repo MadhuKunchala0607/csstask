@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+   
+    <style>
+      
+
+        .container {
+            position: fixed;
+            height: 97%;
+            width: 25%;
+            border: 2px solid black;
+            margin-left: 25%;
+            margin-right: auto;
+            margin-top: 1%;
+            border-radius: 30px;
+            
+           
+            overflow: scroll;
+            scrollbar-width: none;
+          
+      
+        
+            
+        }
+
+        .top-nav {
+            background-color: lightgreen;
+            position: absolute;
+            
+            left: 25.5%;
+            height: 70px;
+            width: 25%;
+            border-radius: 30px 30px 0 0;
+            display: flex;
+            align-items: center;
+            position: fixed;
+            
+            
+        }
+
+        img {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            margin-left: 15px;
+            margin-top: 5px;
+        }
+
+        .top-nav span {
+            margin-left: 15px;
+            font-weight: bold;
+        }
+
+        .btm-nav {
+            position: absolute;
+            bottom: 1%;
+            border-radius: 0 0 30px 30px;
+           
+            height: 70px;
+           
+            position: fixed;
+            width: 25%;
+            background-color: whitesmoke;
+            
+          
+        }
+
+        .chat-box {
+            padding: 80px 10px 90px; 
+            
+            height: 100%;
+            box-sizing: border-box;
+            
+            
+        }
+
+        .text {
+            background-color: lightblue;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+            width: fit-content;
+            max-width: 70%;
+            
+        }
+
+        .test2 {
+            background-color: lightcoral;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+            width: fit-content;
+            max-width: 70%;
+            align-self: flex-end;
+            margin-left: auto;
+        }
+       .icon {
+        margin-left: 10px;
+       }
+       i{
+        margin-left: 40px;
+       }
+       input{
+        height: 50%;
+        width: 75%;
+        border-radius: 30px;
+        bottom: 0;
+        padding: 10px;
+       }
+       .icon > i {
+        margin-left: 10px;
+    }
+    .dat,.date,.date1,.date2,.date3,.date4{
+        position: relative;
+      
+       
+        text-align: center;
+        background-color: bisque;
+        border-radius: 30px;
+        padding: 6px;
+        align-items: center;
+        margin-left: 40%;
+        position: sticky;
+        top: 0px;
+        z-index: -1;
+    }
+
+    .chat-box{
+        overflow-y: auto;
+        scrollbar-width: none;
+    }
+    .name{
+        display: none;
+    }
+    :hover~.name{
+        display: block;
+    }
+   
+   
+    </style>
+</head>
+<body>    
+    <div class="container">
+        
+    
+        <div class="top-nav">
+     
+            <img src="girl.jpg" alt=""><span>Angel Priya
+                
+            </span>
+            
+            <span class="icon">
+                <i style="font-size:24px" class="fa">&#xf095;</i>
+            <i style="font-size:24px" class="fa">&#xf03d;</i>
+            <div class="name">
+                <h1>Angel priya</h1>
+            </div>
+            </span>
+            
+            
+            
+            
+        </div>
+        
+       
+       
+        
+        
+       
+        
+        
+        
+        <div class="btm-nav">
+            <input type="text" placeholder="Message ">
+            <i style="font-size:24px" class="fa fa-camera"></i>
+        </div>
+       
+        <div class="chat-box">
+            
+            <span class="date">july,6</span>
+            <div class="text">Hello</div>
+            <div class="test2">Hi</div>
+            <span class="dat">july,6</span>
+            <div class="text">What are you doing</div>
+            <div class="text">Hello</div>
+            <span class="dat">july,6</span>
+            <div class="test2">Hi</div>
+            
+            <span class="dat">july,6</span>
+            <div class="text">Hello</div>
+            <div class="text">Hello</div>
+            <div class="text">Hello</div>
+            <div class="test2">Hi</div>
+            <div class="text">Hello</div>
+            <div class="test2">Hi</div>
+            <span class="date">july,6</span>
+            <div class="test2">Hi</div>
+            <div class="text">Hello</div>
+            <span class="date1">july,6</span>
+            <div class="text">Hello</div>
+            <div class="text">Hello</div>
+            <div class="test2">Hi</div>
+            <div class="text">Hello</div>
+            <div class="test2">Hi</div>
+            <div class="test2">Hi</div>
+            <span class="date3">july,6</span>
+            <div class="text">Hello</div>
+            <div class="test2">Hi</div>
+            <div class="text">Hello</div>
+            <div class="test2">Hi</div>
+            <div class="text">Hello</div>
+            <div class="test2">Hi</div>
+            <div class="text">Hello</div>
+            <div class="test2">Hi</div>
+           
+          
+  
+            
+        </div>
+        
+    </div>
+</body>
+</html>
